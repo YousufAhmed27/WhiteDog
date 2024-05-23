@@ -19,7 +19,7 @@ export default class State {
         this.currentState = ""
     }
     update() {
-        if (this.currentState === "" && this.player.onground()) this.Idle()
+        if (this.currentState === "" && this.player.onground()) this.Run_Right()
         else if (this.currentState === "Run_Right") this.Run_Right()
         else if (this.currentState === "Run_Left") this.Run_Left()
         else if (this.currentState === "Jump") this.Jump()
