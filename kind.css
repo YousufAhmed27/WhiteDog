@@ -1,0 +1,37 @@
+canvas {
+    width: 98vw;
+    height: 48vw;
+    border: 1px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: grey;
+}
+
+div.Loading {
+    width: 98vw;
+    height: 48vw;
+    border: 1px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: grey;
+    color: black;
+    font-size: 5rem;
+    display: grid;
+    place-content: center;
+}
+
+div.Loading.go {
+    z-index: -1
+}
+
+img {
+    display: none
+}
+
+body {
+    background-color: black;
+}
